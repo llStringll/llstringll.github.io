@@ -79,13 +79,13 @@ ul.menu li a:hover {color:#eee; text-decoration:none;}
 body .navmenu a {font-size:1.4em;}
 
 /* Light styles, apply by using class="light" on the body HTML element */
-body.light {background:#fff url(images/background.jpg) top center no-repeat; color:#777;}
-body.light a {color:#d06060;}
+body.light {background:#4a4545 url(images/background.jpg) top center no-repeat; color:#eeeded;}
+body.light a {color:#0bafa1;}
 body.light a:hover {color:#555;}
 body.light h1 {color:#888; font-size:4.6em; margin-bottom:0;}
 body.light h1 a:hover {color:#303030;}
 body.light h2 {color:#555;}
-body.light h1, body.light h2, body.light h3 {color:#d06060;}
+body.light h1, body.light h2, body.light h3 {color:#0bafa1;}
 body.light ul.menu {border-top:1px solid #ddd;}
 body.light ul.menu li {border-bottom:1px solid #ddd;}
 body.light ul.menu li a:hover {color:#333;}
