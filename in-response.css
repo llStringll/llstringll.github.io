@@ -69,7 +69,7 @@ ul.menu li a:hover {color:#eee; text-decoration:none;}
 .aligncenter {text-align:center;}
 .alignjustify {text-align:justify;}
 .nomargin {margin:0; padding:0;}
-.separator {height:100px; margin:0; padding:0; background: #0a0a0a url(images/insidebg2.jpg) bottom center no-repeat; border-bottom:1px dotted #1a1a1a;}
+.separator {height:100px; margin:0; padding:0; background: #0a0a0a bottom center no-repeat; border-bottom:1px dotted #1a1a1a;}
 .larger {font-size:1.2em;}
 .smaller {font-size:0.9em;}
 .spacer {margin:0 20px;}
@@ -79,7 +79,7 @@ ul.menu li a:hover {color:#eee; text-decoration:none;}
 body .navmenu a {font-size:1.4em;}
 
 /* Light styles, apply by using class="light" on the body HTML element */
-body.light {background:#4a4545 url(images/background.jpg) top center no-repeat; color:#eeeded;}
+body.light {background:#4a4545 top center no-repeat; color:#eeeded;}
 body.light a {color:#0bafa1;}
 body.light a:hover {color:#555;}
 body.light h1 {color:#888; font-size:4.6em; margin-bottom:0;}
@@ -89,9 +89,9 @@ body.light h1, body.light h2, body.light h3 {color:#0bafa1;}
 body.light ul.menu {border-top:0px solid #ddd;}
 body.light ul.menu li {border-bottom:0px solid #ddd;}
 body.light ul.menu li a:hover {color:#333;}
-body.light .separator {background: #f5f5f5 url(images/insidebg2-light.jpg) bottom center no-repeat; border-bottom:1px dotted #ccc;}
+body.light .separator {background: #f5f5f5 bottom center no-repeat; border-bottom:1px dotted #ccc;}
 body.light .slogan {color:#888;}
-body.light #footer {background:#f5f5f5 url(images/insidebg-light.jpg) top center no-repeat;}
+body.light #footer {background:#f5f5f5 top center no-repeat;}
 body.light #footer .col {color:#555; border-top:1px dotted #ccc;}
 body.light #footer a {color:#555; border-bottom:1px dotted #ddd;}
 body.light #footer a:hover {color:#444; border-bottom:1px dotted #eee;}
