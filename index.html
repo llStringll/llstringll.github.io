@@ -1,59 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-
-  <meta charset="UTF-8" />
-  <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css' />
-  <link href='https://fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet' type='text/css' />
-  <link rel="stylesheet" type="text/css" href="in-response.css" title="In Response" media="all" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.6" />
-  <title>Harshveer</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harshveer Singh</title>
+<meta name="description" content="Harshveer Singh — Senior ML/AI Engineer and independent AI researcher.">
+<meta property="og:title" content="Harshveer Singh">
+<meta property="og:description" content="Senior ML/AI Engineer · independent AI researcher">
+<meta property="og:url" content="https://llstringll.github.io/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#f6f5f1;--fg:#14161a;--muted:#6b6f76;--line:#e4e2dc;--accent:#1f6f4a;--card:#fff}
+  @media (prefers-color-scheme: dark){
+    :root{--bg:#0d0f12;--fg:#e9eaec;--muted:#8a8f98;--line:#23272e;--accent:#5fd49a;--card:#15181d}
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--fg);font:16px/1.65 Inter,system-ui,sans-serif;padding:0 16px}
+  main{max-width:680px;margin:0 auto;padding:72px 0 48px}
+  .mono{font-family:'JetBrains Mono',monospace}
+  .prompt{color:var(--accent);font-size:13px}
+  .prompt::after{content:"▍";animation:b 1s steps(1) infinite;margin-left:2px}
+  @keyframes b{50%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.prompt::after{animation:none}}
+  h1{font-size:clamp(32px,7vw,46px);font-weight:600;letter-spacing:-.02em;line-height:1.15;margin:10px 0 6px}
+  .role{color:var(--muted);font-size:15px}
+  section{margin-top:40px}
+  h2{font:600 12px 'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:12px}
+  p+p{margin-top:12px}
+  a{color:var(--fg);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px}
+  a:hover{color:var(--accent)}
+  .work{border:1px solid var(--line);background:var(--card);border-radius:12px;padding:16px 18px}
+  .work small{display:block;color:var(--muted);margin-top:6px;font-size:13px}
+  ul.links{list-style:none;display:flex;flex-wrap:wrap;gap:8px}
+  ul.links a{display:inline-block;padding:7px 14px;border:1px solid var(--line);border-radius:999px;
+    text-decoration:none;font:13px 'JetBrains Mono',monospace;background:var(--card)}
+  ul.links a:hover{border-color:var(--accent)}
+  footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font:12px 'JetBrains Mono',monospace;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+  footer a{color:var(--muted)}
+</style>
 </head>
+<body>
+<main>
+  <p class="prompt mono">&gt; let me seed the prompt</p>
+  <h1>Hi, I'm Harshveer</h1>
+  <p class="role">Senior ML/AI Engineer · Bengaluru</p>
 
-<body class="light">
-<div id="layout">
- 
-  <div class="row">
-    <div class="col c12">
-      <h2 class="aligncenter">Hi I'm Harshveer</h1>
-    </div>
-  </div>
+  <section>
+    <h2>About</h2>
+    <p>ML/DL engineer in the industry by day, independent AI researcher by night. I build production ML systems — document AI, voice and payments, LLM platforms — on a background in mathematical analysis, with research stints at CERN and IIT Mandi.</p>
+    <p>Research interests: biologically plausible conversational agents, loss-landscape analysis, causal inference. I believe consciousness is hierarchical and arises through superposition collapses.</p>
+  </section>
 
-  <div class="row">
-    <div class="col c12">
-      <h2>Let me seed the prompt</h2>
-      <p>Independent AI Researcher at night, ML/DL Engineer in the industry during the day. My research interests are biologically plausible conversational agents, loss landscape analysis, causal Inference. Background in mathematical analysis and production-ready model development.
-I truly believe consciousness is hierarchical and arises through superposition collapses.</p>
-        <section>
-        <h3>Recent work:</h3>
-        <ul class="menu">
-        <li>A novel learning regime for robust online learning in agents with hierarchical graph neural nets <a href="https://github.com/llStringll/motherAI/blob/main/smashkarts_summary.md">Read here</a></li>
-        </ul>
-        </section>
-      <p><a href="docs/harshveer_singh.pdf">Here</a> is my C.V. , Social Media presence - 
-        <a href="https://github.com/llStringll">Git, </a>
-        <a href="https://twitter.com/stringharsh">Twitter, </a>
-        <a href="https://www.linkedin.com/in/llharshveer-singhll/">Linkedin, </a>
-        <a href="https://medium.com/@harshveer_singh">Medium, </a>
-                  </p>
+  <section>
+    <h2>Recent work</h2>
+    <div class="work">
+      A novel learning regime for robust online learning in agents with hierarchical graph neural nets.
+      <small><a href="https://github.com/llStringll/motherAI/blob/main/smashkarts_summary.md" target="_blank" rel="noopener">Read the write-up ↗</a></small>
     </div>
-  </div>
-  <hr>
+  </section>
 
-  <div class="row">
-    <div class="col c12">
-      <h3>Contact</h3>
-      <div class="col c10">
-        <p>You may reach me at <u>harshveer321.code [at] gmail [dot] com</u></p>
-      </div>
-    </div>
-  </div>
- </div>
-  <div class="row">
-    <div class="col c12 aligncenter">
-      <p><span class="larger">&copy; 2025 Harshveer Singh</span><br />
-    </div>
-  </div>
- </div>
+  <section>
+    <h2>Elsewhere</h2>
+    <ul class="links">
+      <li><a href="/docs/harshveer_singh.pdf" target="_blank" rel="noopener">résumé</a></li>
+      <li><a href="https://github.com/llStringll" target="_blank" rel="noopener">github</a></li>
+      <li><a href="https://www.linkedin.com/in/llharshveer-singhll/" target="_blank" rel="noopener">linkedin</a></li>
+      <li><a href="https://medium.com/@harshveer_singh" target="_blank" rel="noopener">medium</a></li>
+      <li><a href="https://twitter.com/stringharsh" target="_blank" rel="noopener">x / twitter</a></li>
+      <li><a href="/links/">all links</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p><a id="mail" href="#">harshveer321.code [at] gmail [dot] com</a></p>
+  </section>
+
+  <footer><span>© 2026 Harshveer Singh</span><a href="/links/">/links</a></footer>
+</main>
+<script>
+  (function(){var e='harshveer321.code'+'@'+'gmail.com',a=document.getElementById('mail');a.href='mailto:'+e;a.textContent=e;})();
+</script>
 </body>
 </html>
